@@ -38,7 +38,7 @@ SKSEPluginLoad(const SKSE::LoadInterface* a_skse)
 		Plugin::VERSION.major(),
 		Plugin::VERSION.minor(),
 		Plugin::VERSION.patch(),
-		REL::Module::IsAE() ? "AE" : "SE",
+		REL::Module::IsVR() ? "VR" : REL::Module::IsAE() ? "AE" : "SE",
 		REL::Module::get().version().string("."));
 
 	Settings::GetSingleton().Load();
