@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(DialogueDucker VERSION 1.0.1 LANGUAGES CXX)
+project(DialogueDucker VERSION 1.0.3 LANGUAGES CXX)
 
 set(PLUGIN_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
 if(PLUGIN_VERSION_PATCH STREQUAL "")
